@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import Layout from '../components/Layout'
-import { Primary, Secondary } from '../components/UI/Buttons'
+import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function About() {
   return (
@@ -8,8 +7,6 @@ export default function About() {
       <Head>
         <title>Kieran Proctor | About</title>
       </Head>
-      <Primary text="Test" route="home" />
-      <Secondary text="TESTING"></Secondary>
     </Layout>
   );
 }

@@ -19,7 +19,7 @@ export const Navbar = () => {
           </a>
         </Link>
         <button
-          className='inline-flex p-3 ml-auto rounded outline-none hover:bg-purple-800 lg:hidden'
+          className='inline-flex p-3 ml-auto rounded outline-none hover:bg-purple-700 lg:hidden'
           onClick={handleClick}
         >
           <svg
@@ -44,18 +44,23 @@ export const Navbar = () => {
         >
           <div className='flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
             <Link href='/'>
-              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-800'>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-700'>
                 Home
               </a>
             </Link>
             <Link href='/'>
-              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-800'>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-700'>
                 Services
               </a>
             </Link>
             <Link href='/about'>
-              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-800'>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-700'>
                 About
+              </a>
+            </Link>
+            <Link href='/ui'>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold rounded lg:inline-flex lg:w-auto hover:bg-purple-700'>
+                UI
               </a>
             </Link>
           </div>
