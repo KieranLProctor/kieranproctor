@@ -16,7 +16,19 @@ const Index: NextPage<Props> = () => {
       }
     >
       <div className="mx-auto mb-6 max-w-site px-6 desktop:px-16">
-        <h1>NextJS Project Boilerplate</h1>
+        <section className="mt-4">
+          <h1 className="text-5xl font-bold">Welcome 🦘</h1>
+          <p className="mt-4 max-w-[75%] text-lg">
+            I&apos;m Kieran Proctor, a Software Developer from the North West of
+            the UK. Most of my projessional experience is within Web Development
+            although I have developed some internal applications at previous
+            companies.
+          </p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-3xl font-medium">Languages &amp; Tech</h2>
+        </section>
       </div>
     </Main>
   );

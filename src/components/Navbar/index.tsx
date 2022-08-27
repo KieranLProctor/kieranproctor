@@ -20,8 +20,18 @@ const index: React.FC<Props> = () => {
           <nav className="flex tablet:row-start-2">
             <ul className="tablet:grid tablet:grid-flow-col tablet:justify-between tablet:gap-12">
               <li>
-                <a href="#" className="text-lg hover:text-gray-500">
-                  Example
+                <a href="#about" className="text-lg hover:text-gray-500">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#projects" className="text-lg hover:text-gray-500">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#blog" className="text-lg hover:text-gray-500">
+                  Blog
                 </a>
               </li>
             </ul>
