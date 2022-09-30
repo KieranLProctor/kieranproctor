@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       maxWidth: {
-        site: '90rem',
+        site: '80rem',
       },
     },
   },
