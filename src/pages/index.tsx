@@ -17,7 +17,7 @@ const Index: NextPage<Props> = () => {
       }
     >
       <div className="mx-auto mb-6 max-w-site px-6 desktop:px-16">
-        <section id="about" className="mt-4">
+        <section id="about" className="mt-10">
           <h1 className="text-5xl font-bold">Welcome 🦘</h1>
           <p className="mt-4 text-lg">
             I&apos;m Kieran Proctor, a Software Developer living in
@@ -62,8 +62,7 @@ const Index: NextPage<Props> = () => {
         <section id="projects" className="mt-10">
           <h3 className="text-3xl font-medium">Projects</h3>
           <p className="mt-4 text-lg">
-            Below is a list of my current top projects, click on a card to find
-            out more.
+            Below is a list of my current top projects, click to find out more.
           </p>
         </section>
 

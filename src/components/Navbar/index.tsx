@@ -8,7 +8,7 @@ const index: React.FC<Props> = () => {
     <header className="soft-shadow z-10 flex-none bg-white pt-8 tablet:py-8">
       <div className="mx-auto max-w-site px-8 leading-loose tablet:flex tablet:items-stretch tablet:px-16 tablet:leading-none">
         <a
-          className="mb-8 block h-8 w-20 shrink-0 tablet:mb-0 tablet:h-auto tablet:w-44"
+          className="mb-8 hidden h-8 w-20 shrink-0 tablet:mb-0 tablet:h-auto tablet:w-44"
           href="/"
           title="Home"
         >
