@@ -16,7 +16,7 @@ const Index: NextPage<Props> = () => {
         />
       }
     >
-      <div className="mx-auto mb-6 max-w-site px-6 desktop:px-16">
+      <div className="mx-auto mb-12 max-w-site px-6 desktop:px-16">
         <section id="about" className="mt-10">
           <h1 className="text-5xl font-bold">Welcome 🦘</h1>
           <p className="mt-4 text-lg">
@@ -31,7 +31,7 @@ const Index: NextPage<Props> = () => {
           </p>
         </section>
 
-        <section className="mt-10">
+        <section className="mt-14">
           <h2 className="text-3xl font-medium">Languages &amp; Tech</h2>
           <p className="mt-4 text-lg">
             These are the languages / technologies that I am proficient or
@@ -59,14 +59,19 @@ const Index: NextPage<Props> = () => {
           </ol>
         </section>
 
-        <section id="projects" className="mt-10">
+        <section id="projects" className="mt-14">
           <h3 className="text-3xl font-medium">Projects</h3>
           <p className="mt-4 text-lg">
             Below is a list of my current top projects, click to find out more.
+            To see all click{' '}
+            <a href="https://github.com/KieranLProctor?tab=repositories">
+              here
+            </a>
+            .
           </p>
         </section>
 
-        <section id="blog" className="mt-10">
+        <section id="blog" className="mt-14">
           <h3 className="text-3xl font-medium">Blog</h3>
           <p className="mt-4 text-lg">
             This section may come soon, it may also not.. ¯\_(ツ)_/¯
