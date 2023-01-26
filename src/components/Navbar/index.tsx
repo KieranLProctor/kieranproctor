@@ -34,6 +34,14 @@ const index: React.FC<Props> = () => {
                   Blog
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/KieranLProctor"
+                  className="text-lg hover:text-gray-500"
+                >
+                  Github
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

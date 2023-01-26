@@ -22,9 +22,9 @@ const Index: NextPage<Props> = () => {
           <p className="mt-4 text-lg">
             I&apos;m Kieran Proctor, a Software Developer living in
             Hertfordshire, UK. I&apos;m usually developing wesbites using{' '}
-            <a href="https://nextjs.org/">Next.js</a> or <a href="">Vue.js</a>{' '}
-            &amp; <a href="https://laravel.com/">Laravel</a>. Although I have a
-            deep interest with backend development, using things such as{' '}
+            <a href="https://nextjs.org/">Next.js</a> (with a{' '}
+            <a href="https://laravel.com/">Laravel</a> backend). Although I have
+            a deep interest with backend development, using things such as{' '}
             <a href="https://www.rust-lang.org/">Rust</a>,{' '}
             <a href="https://cplusplus.com/">C++</a> or{' '}
             <a href="https://nodejs.org/en/">Node.js</a>.
