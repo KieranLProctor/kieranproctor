@@ -22,12 +22,42 @@ const Index: NextPage<Props> = () => {
           <p className="mt-4 text-lg">
             I&apos;m Kieran Proctor, a Software Developer living in
             Hertfordshire, UK. I&apos;m usually developing wesbites using{' '}
-            <a href="https://nextjs.org/">Next.js</a> (with a{' '}
-            <a href="https://laravel.com/">Laravel</a> backend). Although I have
-            a deep interest with backend development, using things such as{' '}
-            <a href="https://www.rust-lang.org/">Rust</a>,{' '}
-            <a href="https://cplusplus.com/">C++</a> or{' '}
-            <a href="https://nodejs.org/en/">Node.js</a>.
+            <a
+              href="https://nextjs.org/"
+              className="border-b-2 hover:border-b-gray-500"
+            >
+              Next.js
+            </a>{' '}
+            (with a{' '}
+            <a
+              href="https://laravel.com/"
+              className="border-b-2 hover:border-b-gray-500"
+            >
+              Laravel
+            </a>{' '}
+            backend). Although I have a deep interest with backend development,
+            using things such as{' '}
+            <a
+              href="https://www.rust-lang.org/"
+              className="border-b-2 hover:border-b-gray-500"
+            >
+              Rust
+            </a>
+            ,{' '}
+            <a
+              href="https://cplusplus.com/"
+              className="border-b-2 hover:border-b-gray-500"
+            >
+              C++
+            </a>{' '}
+            or{' '}
+            <a
+              href="https://nodejs.org/en/"
+              className="border-b-2 hover:border-b-gray-500"
+            >
+              Node.js
+            </a>
+            .
           </p>
         </section>
 
@@ -39,22 +69,52 @@ const Index: NextPage<Props> = () => {
           </p>
           <ol className="mt-2 ml-8 list-disc">
             <li>
-              <a href="https://nextjs.org/">Next.js</a>
+              <a
+                href="https://nextjs.org/"
+                className="border-b-2 hover:border-b-gray-500"
+              >
+                Next.js
+              </a>
             </li>
             <li>
-              <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">C#</a>
+              <a
+                href="https://learn.microsoft.com/en-us/dotnet/csharp/"
+                className="border-b-2 hover:border-b-gray-500"
+              >
+                C#
+              </a>
             </li>
             <li>
-              <a href="https://laravel.com/">Laravel</a>
+              <a
+                href="https://laravel.com/"
+                className="border-b-2 hover:border-b-gray-500"
+              >
+                Laravel
+              </a>
             </li>
             <li>
-              <a href="https://tailwindcss.com/">Tailwind CSS</a>
+              <a
+                href="https://tailwindcss.com/"
+                className="border-b-2 hover:border-b-gray-500"
+              >
+                Tailwind CSS
+              </a>
             </li>
             <li>
-              <a href="https://www.rust-lang.org/">Rust</a>
+              <a
+                href="https://www.rust-lang.org/"
+                className="border-b-2 hover:border-b-gray-500"
+              >
+                Rust
+              </a>
             </li>
             <li>
-              <a href="https://cplusplus.com/">C++</a>
+              <a
+                href="https://cplusplus.com/"
+                className="border-b-2 hover:border-b-gray-500"
+              >
+                C++
+              </a>
             </li>
           </ol>
         </section>
@@ -64,7 +124,10 @@ const Index: NextPage<Props> = () => {
           <p className="mt-4 text-lg">
             Below is a list of my current top projects, click to find out more.
             To see all click{' '}
-            <a href="https://github.com/KieranLProctor?tab=repositories">
+            <a
+              href="https://github.com/KieranLProctor?tab=repositories"
+              className="border-b-2 hover:border-b-gray-500"
+            >
               here
             </a>
             .
