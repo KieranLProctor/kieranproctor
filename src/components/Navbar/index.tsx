@@ -37,7 +37,9 @@ const index: React.FC<Props> = () => {
               <li>
                 <a
                   href="https://github.com/KieranLProctor"
+                  target="_blank"
                   className="text-lg hover:text-gray-500"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
