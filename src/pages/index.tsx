@@ -24,14 +24,18 @@ const Index: NextPage<Props> = () => {
             Hertfordshire, UK. I&apos;m usually developing wesbites using{' '}
             <a
               href="https://nextjs.org/"
+              target="_blank"
               className="border-b-2 hover:border-b-gray-500"
+              rel="noreferrer"
             >
               Next.js
             </a>{' '}
             (with a{' '}
             <a
               href="https://laravel.com/"
+              target="_blank"
               className="border-b-2 hover:border-b-gray-500"
+              rel="noreferrer"
             >
               Laravel
             </a>{' '}
@@ -39,21 +43,27 @@ const Index: NextPage<Props> = () => {
             using things such as{' '}
             <a
               href="https://www.rust-lang.org/"
+              target="_blank"
               className="border-b-2 hover:border-b-gray-500"
+              rel="noreferrer"
             >
               Rust
             </a>
             ,{' '}
             <a
               href="https://cplusplus.com/"
+              target="_blank"
               className="border-b-2 hover:border-b-gray-500"
+              rel="noreferrer"
             >
               C++
             </a>{' '}
             or{' '}
             <a
               href="https://nodejs.org/en/"
+              target="_blank"
               className="border-b-2 hover:border-b-gray-500"
+              rel="noreferrer"
             >
               Node.js
             </a>
@@ -71,7 +81,9 @@ const Index: NextPage<Props> = () => {
             <li>
               <a
                 href="https://nextjs.org/"
+                target="_blank"
                 className="border-b-2 hover:border-b-gray-500"
+                rel="noreferrer"
               >
                 Next.js
               </a>
@@ -79,7 +91,9 @@ const Index: NextPage<Props> = () => {
             <li>
               <a
                 href="https://learn.microsoft.com/en-us/dotnet/csharp/"
+                target="_blank"
                 className="border-b-2 hover:border-b-gray-500"
+                rel="noreferrer"
               >
                 C#
               </a>
@@ -87,7 +101,9 @@ const Index: NextPage<Props> = () => {
             <li>
               <a
                 href="https://laravel.com/"
+                target="_blank"
                 className="border-b-2 hover:border-b-gray-500"
+                rel="noreferrer"
               >
                 Laravel
               </a>
@@ -95,7 +111,9 @@ const Index: NextPage<Props> = () => {
             <li>
               <a
                 href="https://tailwindcss.com/"
+                target="_blank"
                 className="border-b-2 hover:border-b-gray-500"
+                rel="noreferrer"
               >
                 Tailwind CSS
               </a>
@@ -103,7 +121,9 @@ const Index: NextPage<Props> = () => {
             <li>
               <a
                 href="https://www.rust-lang.org/"
+                target="_blank"
                 className="border-b-2 hover:border-b-gray-500"
+                rel="noreferrer"
               >
                 Rust
               </a>
@@ -111,7 +131,9 @@ const Index: NextPage<Props> = () => {
             <li>
               <a
                 href="https://cplusplus.com/"
+                target="_blank"
                 className="border-b-2 hover:border-b-gray-500"
+                rel="noreferrer"
               >
                 C++
               </a>
@@ -126,7 +148,9 @@ const Index: NextPage<Props> = () => {
             To see all click{' '}
             <a
               href="https://github.com/KieranLProctor?tab=repositories"
+              target="_blank"
               className="border-b-2 hover:border-b-gray-500"
+              rel="noreferrer"
             >
               here
             </a>
