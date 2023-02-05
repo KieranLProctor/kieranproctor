@@ -1,12 +1,27 @@
 import type { NextPage } from 'next';
+import { useEffect, useState } from 'react';
 
 import Meta from '@/components/Meta';
+import useAsyncAxios from '@/hooks/useAsyncAxios';
+import type Project from '@/interfaces/Project';
 import Main from '@/layouts/Main';
 import { AppConfig } from '@/utils/AppConfig';
 
 interface Props {}
 
 const Index: NextPage<Props> = () => {
+  const { data, loading, errors }: any = useAsyncAxios({
+    url: 'https://api.kieranproctor.com/v1/projects',
+  });
+  const [allProjects, setAllProjects] = useState<Project[]>([]);
+
+  useEffect(() => {
+    if (!loading && !errors && data) {
+      setAllProjects(data?.data);
+      console.log(data?.data);
+    }
+  }, [data, loading]);
+
   return (
     <Main
       meta={
@@ -142,7 +157,9 @@ const Index: NextPage<Props> = () => {
         </section>
 
         <section id="projects" className="mt-14">
-          <h3 className="text-3xl font-medium">Projects</h3>
+          <h3 className="text-3xl font-medium">
+            Projects - ({allProjects?.length || 0})
+          </h3>
           <p className="mt-4 text-lg">
             Below is a list of my current top projects, click to find out more.
             To see all click{' '}
