@@ -1,12 +1,24 @@
 import type Image from './Image';
+import type Link from './Link';
 
 export default interface Project {
-  id: number;
-  title: string;
-  description: string;
-  urls: {
-    url: string;
-    type: string;
+  jsonapi: {
+    version: string;
   };
-  image: Image;
+  links: Link;
+  data: {
+    type: string;
+    id: number;
+    attributes: {
+      title: string;
+      slug: string;
+      body?: string;
+      createdAt: Date;
+      updatedAt: Date;
+    };
+    relationships: {
+      image?: Image;
+    };
+    links: Link;
+  };
 }
