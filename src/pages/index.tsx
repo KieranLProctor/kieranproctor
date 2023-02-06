@@ -2,8 +2,9 @@ import type { NextPage } from 'next';
 import { useEffect, useState } from 'react';
 
 import Meta from '@/components/Meta';
+import ProjectContainer from '@/components/Project/ProjectContainer';
 import useAsyncAxios from '@/hooks/useAsyncAxios';
-import type Project from '@/interfaces/Project';
+import type { ProjectData } from '@/interfaces/Project';
 import Main from '@/layouts/Main';
 import { AppConfig } from '@/utils/AppConfig';
 
@@ -13,12 +14,11 @@ const Index: NextPage<Props> = () => {
   const { data, loading, errors }: any = useAsyncAxios({
     url: 'https://api.kieranproctor.com/v1/projects',
   });
-  const [allProjects, setAllProjects] = useState<Project[]>([]);
+  const [allProjects, setAllProjects] = useState<ProjectData[]>([]);
 
   useEffect(() => {
     if (!loading && !errors && data) {
       setAllProjects(data?.data);
-      console.log(data?.data);
     }
   }, [data, loading]);
 
@@ -173,6 +173,12 @@ const Index: NextPage<Props> = () => {
             </a>
             .
           </p>
+
+          <div className="mt-4">
+            {allProjects.length > 0 && (
+              <ProjectContainer projects={allProjects} />
+            )}
+          </div>
         </section>
 
         <section id="blog" className="mt-14">
