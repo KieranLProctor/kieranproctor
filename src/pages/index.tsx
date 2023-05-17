@@ -12,7 +12,7 @@ interface Props {}
 
 const Index: NextPage<Props> = () => {
   const { data, loading, errors }: any = useAsyncAxios({
-    url: 'https://api.kieranproctor.com/v1/projects',
+    url: `${process.env.NEXT_PUBLIC_BASE_API_URL}/v1/projects`,
   });
   const [allProjects, setAllProjects] = useState<ProjectData[]>([]);
 
@@ -174,7 +174,7 @@ const Index: NextPage<Props> = () => {
             .
           </p>
 
-          <div className="mt-4">
+          <div className="mt-6">
             {allProjects.length > 0 && (
               <ProjectContainer projects={allProjects} />
             )}
