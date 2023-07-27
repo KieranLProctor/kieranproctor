@@ -180,13 +180,6 @@ const Index: NextPage<Props> = () => {
             )}
           </div>
         </section>
-
-        <section id="blog" className="mt-14">
-          <h3 className="text-3xl font-medium">Blog</h3>
-          <p className="mt-4 text-lg">
-            This section may come soon, it may also not.. ¯\_(ツ)_/¯
-          </p>
-        </section>
       </div>
     </Main>
   );

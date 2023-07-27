@@ -30,11 +30,6 @@ const index: React.FC<Props> = () => {
                 </a>
               </li>
               <li>
-                <a href="#blog" className="text-lg hover:text-gray-500">
-                  Blog
-                </a>
-              </li>
-              <li>
                 <a
                   href="https://github.com/KieranLProctor"
                   target="_blank"
