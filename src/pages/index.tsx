@@ -35,8 +35,8 @@ const Index: NextPage<Props> = () => {
         <section id="about" className="mt-10">
           <h1 className="text-5xl font-bold">Welcome 🦘</h1>
           <p className="mt-4 text-lg">
-            I&apos;m Kieran Proctor, a Software Developer living in
-            Hertfordshire, UK. I&apos;m usually developing wesbites using{' '}
+            I&apos;m Kieran Proctor, a Software Developer living in Sydney,
+            Australia. I&apos;m usually developing wesbites using{' '}
             <a
               href="https://nextjs.org/"
               target="_blank"
